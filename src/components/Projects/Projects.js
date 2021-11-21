@@ -7,10 +7,12 @@ import cards from "../../Assets/Projects/social-media-g9cf8b4a24_1920.png";
 import gameCalculator from "../../Assets/Projects/brain-g16a5352a6_1920.jpg";
 import toDoList from "../../Assets/Projects/pexels-breakingpic-3299.jpg";
 import socialNetwork from "../../Assets/Projects/social-network-background-with-icons-free-vector.jpg";
+import {ParticlThem} from "../particlThem";
 
 function Projects() {
     return (
         <Container fluid className="project-section">
+            <ParticlThem/>
             <Container>
                 <h1 className="project-heading">
                     My Recent <strong className="purple">Works </strong>

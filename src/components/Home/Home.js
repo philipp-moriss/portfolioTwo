@@ -4,11 +4,13 @@ import homeLogo from "../../Assets/home-main.svg";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
+import {ParticlThem} from "../particlThem";
 
 function Home() {
     return (
         <section>
             <Container fluid className="home-section" id="home">
+                <ParticlThem/>
                 <Container className="home-content">
                     <Row>
                         <Col md={7} className="home-header">

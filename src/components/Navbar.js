@@ -27,9 +27,11 @@ function NavBar() {
             className={navColour ? "sticky" : "navbar"}
         >
             <Container>
-                <Navbar.Brand href="/">
-                    <AiOutlineBug/>
-                </Navbar.Brand>
+                <Nav.Item>
+                    <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                        <AiOutlineBug/>
+                    </Nav.Link>
+                </Nav.Item>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
                     onClick={() => {

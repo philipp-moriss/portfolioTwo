@@ -1,14 +1,17 @@
-import React, {useRef} from "react";
+import React, {useRef, useState} from "react";
 import {Col, Container, Form, Row} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Tilt from "react-parallax-tilt";
 import homeLogo from "../../Assets/home-main.svg";
 import {Formik} from 'formik';
 import emailjs from 'emailjs-com';
+import {ModalInfo} from "../Modal/modalInfo";
+import Particles from "react-particles-js";
 
 
 function Contacts() {
     const form = useRef();
+    const [show, setShow] = useState(false);
     return (
         <Container fluid className="resume-section">
             <Container>
@@ -19,6 +22,7 @@ function Contacts() {
                 <p style={{color: "white",}}>
                     you will send messages to my email
                 </p>
+                <ModalInfo show={show} setShow={setShow}/>
                 <Row style={{justifyContent: "center", paddingBottom: "10px",}}>
                     <Col md={5} style={{paddingBottom: 20, justifyContent: "flex-start"}}>
                         <Tilt>
@@ -47,9 +51,11 @@ function Contacts() {
                             emailjs.sendForm('service_19we0oe', 'template_b5hhljn', form.current, 'user_u2RLQ7POwFC54AEBiTZyq')
                                 .then((result) => {
                                     console.log(result.text);
+                                    setShow(true)
                                 }, (error) => {
                                     console.log(error.text);
                                 });
+
                         }}
                     >
                         {({

@@ -4,10 +4,12 @@ import Techstack from "./Techstack";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import AboutCard from "./AboutCard";
+import {ParticlThem} from "../particlThem";
 
 function About() {
     return (
         <Container fluid className="about-section">
+            <ParticlThem/>
             <Container>
                 <Row style={{justifyContent: "center", padding: "10px"}}>
                     <Col
