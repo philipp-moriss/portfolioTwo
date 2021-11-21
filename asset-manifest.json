@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolioTwo/static/css/main.2ec14056.chunk.css",
-    "main.js": "/portfolioTwo/static/js/main.aa7b6eaf.chunk.js",
-    "main.js.map": "/portfolioTwo/static/js/main.aa7b6eaf.chunk.js.map",
-    "runtime-main.js": "/portfolioTwo/static/js/runtime-main.d43b2c27.js",
-    "runtime-main.js.map": "/portfolioTwo/static/js/runtime-main.d43b2c27.js.map",
+    "main.js": "/portfolioTwo/static/js/main.5bf4bf8e.chunk.js",
+    "main.js.map": "/portfolioTwo/static/js/main.5bf4bf8e.chunk.js.map",
+    "runtime-main.js": "/portfolioTwo/static/js/runtime-main.dcfcd88a.js",
+    "runtime-main.js.map": "/portfolioTwo/static/js/runtime-main.dcfcd88a.js.map",
     "static/css/2.d1ad55e0.chunk.css": "/portfolioTwo/static/css/2.d1ad55e0.chunk.css",
-    "static/js/2.de76140c.chunk.js": "/portfolioTwo/static/js/2.de76140c.chunk.js",
-    "static/js/2.de76140c.chunk.js.map": "/portfolioTwo/static/js/2.de76140c.chunk.js.map",
-    "static/js/3.7d6d3991.chunk.js": "/portfolioTwo/static/js/3.7d6d3991.chunk.js",
-    "static/js/3.7d6d3991.chunk.js.map": "/portfolioTwo/static/js/3.7d6d3991.chunk.js.map",
+    "static/js/2.8d6a2780.chunk.js": "/portfolioTwo/static/js/2.8d6a2780.chunk.js",
+    "static/js/2.8d6a2780.chunk.js.map": "/portfolioTwo/static/js/2.8d6a2780.chunk.js.map",
+    "static/js/3.1aae14c7.chunk.js": "/portfolioTwo/static/js/3.1aae14c7.chunk.js",
+    "static/js/3.1aae14c7.chunk.js.map": "/portfolioTwo/static/js/3.1aae14c7.chunk.js.map",
     "index.html": "/portfolioTwo/index.html",
     "static/css/2.d1ad55e0.chunk.css.map": "/portfolioTwo/static/css/2.d1ad55e0.chunk.css.map",
     "static/css/main.2ec14056.chunk.css.map": "/portfolioTwo/static/css/main.2ec14056.chunk.css.map",
-    "static/js/2.de76140c.chunk.js.LICENSE.txt": "/portfolioTwo/static/js/2.de76140c.chunk.js.LICENSE.txt",
+    "static/js/2.8d6a2780.chunk.js.LICENSE.txt": "/portfolioTwo/static/js/2.8d6a2780.chunk.js.LICENSE.txt",
     "static/media/76820-meteorology-weather-cloud-icon-download-hq-png.af17e491.png": "/portfolioTwo/static/media/76820-meteorology-weather-cloud-icon-download-hq-png.af17e491.png",
     "static/media/about.aee0f771.png": "/portfolioTwo/static/media/about.aee0f771.png",
     "static/media/brain-g16a5352a6_1920.aec7e072.jpg": "/portfolioTwo/static/media/brain-g16a5352a6_1920.aec7e072.jpg",
@@ -25,10 +25,10 @@
     "static/media/social-network-background-with-icons-free-vector.78d2b014.jpg": "/portfolioTwo/static/media/social-network-background-with-icons-free-vector.78d2b014.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d43b2c27.js",
+    "static/js/runtime-main.dcfcd88a.js",
     "static/css/2.d1ad55e0.chunk.css",
-    "static/js/2.de76140c.chunk.js",
+    "static/js/2.8d6a2780.chunk.js",
     "static/css/main.2ec14056.chunk.css",
-    "static/js/main.aa7b6eaf.chunk.js"
+    "static/js/main.5bf4bf8e.chunk.js"
   ]
 }
