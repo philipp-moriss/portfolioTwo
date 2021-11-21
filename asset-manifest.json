@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolioTwo/static/css/main.2ec14056.chunk.css",
+    "main.js": "/portfolioTwo/static/js/main.509e9e79.chunk.js",
+    "main.js.map": "/portfolioTwo/static/js/main.509e9e79.chunk.js.map",
+    "runtime-main.js": "/portfolioTwo/static/js/runtime-main.d43b2c27.js",
+    "runtime-main.js.map": "/portfolioTwo/static/js/runtime-main.d43b2c27.js.map",
+    "static/css/2.d1ad55e0.chunk.css": "/portfolioTwo/static/css/2.d1ad55e0.chunk.css",
+    "static/js/2.55fb871b.chunk.js": "/portfolioTwo/static/js/2.55fb871b.chunk.js",
+    "static/js/2.55fb871b.chunk.js.map": "/portfolioTwo/static/js/2.55fb871b.chunk.js.map",
+    "static/js/3.7d6d3991.chunk.js": "/portfolioTwo/static/js/3.7d6d3991.chunk.js",
+    "static/js/3.7d6d3991.chunk.js.map": "/portfolioTwo/static/js/3.7d6d3991.chunk.js.map",
+    "index.html": "/portfolioTwo/index.html",
+    "static/css/2.d1ad55e0.chunk.css.map": "/portfolioTwo/static/css/2.d1ad55e0.chunk.css.map",
+    "static/css/main.2ec14056.chunk.css.map": "/portfolioTwo/static/css/main.2ec14056.chunk.css.map",
+    "static/js/2.55fb871b.chunk.js.LICENSE.txt": "/portfolioTwo/static/js/2.55fb871b.chunk.js.LICENSE.txt",
+    "static/media/76820-meteorology-weather-cloud-icon-download-hq-png.af17e491.png": "/portfolioTwo/static/media/76820-meteorology-weather-cloud-icon-download-hq-png.af17e491.png",
+    "static/media/about.aee0f771.png": "/portfolioTwo/static/media/about.aee0f771.png",
+    "static/media/brain-g16a5352a6_1920.aec7e072.jpg": "/portfolioTwo/static/media/brain-g16a5352a6_1920.aec7e072.jpg",
+    "static/media/style.css": "/portfolioTwo/static/media/pre.c289672f.svg",
+    "static/media/home-main.e9f36213.svg": "/portfolioTwo/static/media/home-main.e9f36213.svg",
+    "static/media/myphoto.89897b0e.jpg": "/portfolioTwo/static/media/myphoto.89897b0e.jpg",
+    "static/media/pexels-breakingpic-3299.35604124.jpg": "/portfolioTwo/static/media/pexels-breakingpic-3299.35604124.jpg",
+    "static/media/social-media-g9cf8b4a24_1920.a8550f29.png": "/portfolioTwo/static/media/social-media-g9cf8b4a24_1920.a8550f29.png",
+    "static/media/social-network-background-with-icons-free-vector.78d2b014.jpg": "/portfolioTwo/static/media/social-network-background-with-icons-free-vector.78d2b014.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d43b2c27.js",
+    "static/css/2.d1ad55e0.chunk.css",
+    "static/js/2.55fb871b.chunk.js",
+    "static/css/main.2ec14056.chunk.css",
+    "static/js/main.509e9e79.chunk.js"
+  ]
+}
