@@ -1,7 +1,7 @@
 import React from "react";
 import {Col, Row} from "react-bootstrap";
 import {DiGit, DiJavascript1, DiMongodb, DiNodejs, DiReact,} from "react-icons/di";
-import {SiTypescript} from "react-icons/si";
+import {SiMaterialui, SiTypescript} from "react-icons/si";
 import {FaStackOverflow} from "react-icons/all";
 
 function Techstack() {
@@ -23,7 +23,7 @@ function Techstack() {
                 <DiMongodb/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
-
+                <SiMaterialui/>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiGit/>
