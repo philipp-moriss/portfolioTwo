@@ -32,6 +32,12 @@ function Contacts() {
                         initialValues={{email: '', name: '', message: ''}}
                         validate={values => {
                             const errors = {};
+                            if (!values.name) {
+                                errors.name = 'Required';
+                            }
+                            if (!values.message) {
+                                errors.message = 'Required';
+                            }
                             if (!values.email) {
                                 errors.email = 'Required';
                             } else if (
@@ -79,7 +85,11 @@ function Contacts() {
                                         value={values.name}
                                     />
                                     <Form.Text className={"z"}>
-                                        <span className={"purple"}>Please enter your name</span>
+                                        {errors.name ? <span
+                                                className={"purple"}>{errors.name && touched.name && errors.name}</span> :
+                                            values.name ? <span className={"purple"}>beautiful name</span> :
+                                                <span
+                                                    className={"purple"}>Please enter your Name.</span>}
                                     </Form.Text>
                                 </Form.Group>
                                 <Form.Group controlId="formBasicEmail">
@@ -91,6 +101,7 @@ function Contacts() {
                                     <Form.Text className={"z"}>
                                         {errors.email ? <span
                                                 className={"purple"}>{errors.email && touched.email && errors.email}</span> :
+                                            values.email ? <span className={"purple"}>nice Email</span> :
                                             <span
                                                 className={"purple"}>Please enter your Email.</span>}
                                     </Form.Text>
@@ -107,7 +118,10 @@ function Contacts() {
                                         value={values.message}
                                     />
                                     <Form.Text className={"z"}>
-                                        <span className={"purple"}>Please enter the text you want to send</span>
+                                        {errors.message ? <span
+                                                className={"purple"}>{errors.message && touched.message && errors.message}</span> :
+                                            values.message ? <span className={"purple"}>i will read your text)</span> :
+                                                <span className={"purple"}>Please enter the text you want to send</span>}
                                     </Form.Text>
                                 </Form.Group>
                                 <Button variant="primary" disabled={isSubmitting} style={{margin: '20px'}}

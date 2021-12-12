@@ -26,25 +26,25 @@ function Projects() {
                             imgPath={weatherApp}
                             title="Weather"
                             description="Weather App"
-                            link="https://github.com/philipp-moriss/weatherApp"
+                            link="https://philipp-moriss.github.io/weatherApp/"
                         />
                     </Col>
 
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={gameCalculator}
-                            title="game Calculator"
-                            description="game Calculator"
-                            link="https://github.com/philipp-moriss/game-calculator"
-                        />
-                    </Col>
+                    {/*<Col md={4} className="project-card">*/}
+                    {/*    <ProjectCard*/}
+                    {/*        imgPath={gameCalculator}*/}
+                    {/*        title="game Calculator"*/}
+                    {/*        description="game Calculator"*/}
+                    {/*        link="https://github.com/philipp-moriss/game-calculator"*/}
+                    {/*    />*/}
+                    {/*</Col>*/}
 
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={toDoList}
                             title="To Do List"
                             description="to Do List"
-                            link="https://github.com/philipp-moriss/ToDoListProject"
+                            link="https://philipp-moriss.github.io/ToDoListProject/"
                         />
                     </Col>
 
@@ -53,7 +53,7 @@ function Projects() {
                             imgPath={socialNetwork}
                             title="Social Network"
                             description="Social Network "
-                            link="https://github.com/philipp-moriss/socialNetworck"
+                            link="https://philipp-moriss.github.io/Profile"
                         />
                     </Col>
                     <Col md={4} className="project-card">
@@ -61,7 +61,7 @@ function Projects() {
                             imgPath={cards}
                             title="Cards"
                             description="Cards"
-                            link="https://github.com/philipp-moriss/socialNetworck"
+                            link="https://kysapka.github.io/cards-nya-front-2-0/"
                         />
                     </Col>
                 </Row>
