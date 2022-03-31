@@ -9,11 +9,11 @@ function AboutCard() {
                     <p style={{textAlign: "justify"}}>
                         Hi Everyone, I am <span className="purple">Philipp veremeychik </span>
                         from <span className="purple"> Minsk, Belarus.</span>
-                        <br/>I'm a beginner <span className="purple"> Front-end developer</span>
+                        <br/>I'm a <span className="purple"> Front-end developer</span>
                         <br/>Front-End developer with
                         experience in creating<span className="purple"> SPA using
-                        React, Redux, Typescript, HTML,
-                        CSS, JS.</span> <br/>I'm always looking
+                        React, Next, Redux, MobX, Typescript, HTML,
+                        CSS, SCSS, JS.</span> <br/>I'm always looking
                         forward to improve my expertise.
                         <br/>I'm planing to study <span className="purple">Node.js</span>,
                         because my next focus is to
